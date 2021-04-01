@@ -18,6 +18,11 @@ Es conveniente el uso del archivo .gitignore porque en general no necesitamos o 
 
 La página [gitignore.io] (https://www.gitignore.io/) es una herramienta online que genera de manera automática el archivo .gitignore de acuerdo a los parámetros que le indiquemos. La misma cuenta con un campo de búsqueda donde escribimos los nombres de todas las herramientas, sistema operativo, IDEs, lenguajes, etc. que estemos utilizando y luego hacemos clic en _"Create"_; esto genera el código del gitignore y solo resta copiarlo y pegarlo en el archivo .gitignore.
 
+### Punto 2 📋
+
+Un puntero es una variable que guarda la dirección de memoria de otra variable, en este caso de la variable num. Los resultados de los apartados "b" y "c" son iguales porque cuando se realiza la asignación de un puntero se utiliza el operador de dirección _&_, de la siguiente forma: `int *p_num = &num`, es decir que estamos asignando al puntero la dirección de memoria de la variable num.
+En el apartado "d" se obtiene un resultado diferente porque no estamos mostrando el contenido del puntero p_num, sino que ahora se hace uso del operador _&_ para mostrar por pantalla la dirección de memoria del puntero mismo.
+
 ## Bibliografía 📖
 
 * [git-scm.com](https://git-scm.com/docs/gitignore)
@@ -28,6 +33,7 @@ La página [gitignore.io] (https://www.gitignore.io/) es una herramienta online 
 
 * [Plantilla del readme](https://cutt.ly/StvUFis)
 * [Formato Markdown](https://cutt.ly/jtvP2ER)
+* [guides.github.com](https://guides.github.com/features/mastering-markdown/#syntax)
 
 ## Autores ✒️
 
