@@ -16,7 +16,7 @@ git rm --cached nombreArchivo
 
 Es conveniente el uso del archivo .gitignore porque en general no necesitamos o queremos incluir en el control de versiones todos los archivos de nuestro directorio local, como por ejemplo credenciales, información privada, instaladores de software, archivos creados por el sistema operativo automáticamente, etc.
 
-La página [gitignore.io] (https://www.gitignore.io/) es una herramienta online que genera de manera automática el archivo .gitignore de acuerdo a los parámetros que le indiquemos. La misma cuenta con un campo de búsqueda donde escribimos los nombres de todas las herramientas, sistema operativo, IDEs, lenguajes, etc. que estemos utilizando y luego hacemos clic en _"Create"_; esto genera el código del gitignore y solo resta copiarlo y pegarlo en el archivo .gitignore.
+La página [gitignore.io](https://www.gitignore.io/) es una herramienta online que genera de manera automática el archivo .gitignore de acuerdo a los parámetros que le indiquemos. La misma cuenta con un campo de búsqueda donde escribimos los nombres de todas las herramientas, sistema operativo, IDEs, lenguajes, etc. que estemos utilizando y luego hacemos clic en _"Create"_; esto genera el código del gitignore y solo resta copiarlo y pegarlo en el archivo .gitignore.
 
 ### Punto 2 📋
 
